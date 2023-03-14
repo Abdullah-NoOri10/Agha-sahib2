@@ -1,5 +1,9 @@
 <h1>hello there Abdullah </h1>
 
 {% for names in names %}
-<p>{{ names }}</p>
+
+<a href="{% url 'companies' %}">
+    <p>{{ names }}</p>
+</a>
+
 {% endfor %}
